@@ -14,5 +14,14 @@ class ProduitTest {
 		assertEquals(120, p.ToDh());
 		
 	}
+	
+	@Test
+	void testIsExpensive() {
+		p.setPrixEuro(70);
+		assertFalse(p.isExpensive());
+		
+	}
+	
+	
 
 }

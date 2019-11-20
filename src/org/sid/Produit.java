@@ -35,6 +35,11 @@ public class Produit {
 		return this.PrixEuro*10;
 	}
 	
+	public boolean isExpensive() {
+		if( this.PrixEuro>100 ) return true ;
+		return  false ;
+	}
+	
 	
 
 }
